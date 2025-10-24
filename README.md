@@ -7,14 +7,17 @@ A collection of starter templates for various project types.
 - qstarter
     - scripts
     - templates
+        - basic-astro
+        - basic-cli
         - basic-library
-        - basic-binary
-        - basic-web-astro
-        - basic-web-nuxt
+        - basic-library-with-cli
+        - basic-nuxt
+        - basic-nuxt-content
         - monorepo
             - include packages for: 
+                - astro
+                - cli
                 - library
-                - binary
-                - web-astro
-                - web-nuxt
-                - shared
+                - library-with-cli
+                - nuxt
+                - nuxt-content
