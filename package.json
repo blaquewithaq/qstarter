@@ -1,0 +1,24 @@
+{
+    "private": true,
+    "name": "qstarter",
+    "type": "module",
+    "version": "0.0.1",
+    "description": "A collection of starter templates for quickly bootstrapping new projects",
+    "author": "Blaque Allen <blaquewithaq@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/blaquewithaq/qstarter#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/blaquewithaq/qstarter"
+    },
+    "bugs": {
+        "url": "https://github.com/blaquewithaq/qstarter/issues"
+    },
+    "workspaces": [
+        "templates/*"
+    ],
+    "scripts": {
+        "check": "bun --filter '*' check",
+        "build": "bun --filter '*' build"
+    }
+}

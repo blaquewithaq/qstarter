@@ -1,0 +1,10 @@
+[install]
+
+optional = true
+dev = true
+peer = false
+linker = "hoisted"
+
+[test]
+
+coverage = true
