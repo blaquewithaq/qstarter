@@ -1,0 +1,37 @@
+{
+	"name": "basic-mono-example",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "A basic starter mono example template",
+	"author": "Blaque Allen <blaquewithaq@gmail.com>",
+	"license": "MIT",
+	"homepage": "https://github.com/blaquewithaq/qstarter#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/blaquewithaq/qstarter"
+	},
+	"bugs": {
+		"url": "https://github.com/blaquewithaq/qstarter/issues"
+	},
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.js"
+			}
+		},
+		"./package.json": "./package.json"
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"check": "biome check --write",
+		"build": "bunup",
+		"dev": "bunup --watch"
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}
