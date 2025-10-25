@@ -32,7 +32,6 @@
 		"build": "bunup",
 		"dev": "bunup --watch",
 		"release": "bumpp --commit --tag --push",
-		"postinstall": "bun supabase:init",
 		"supabase:init": "supabase init && bun supabase:disable-analytics",
 		"supabase:disable-analytics": "awk '/\\[analytics\\]/ {in_analytics=1} in_analytics && /^enabled[[:space:]]*=/ {$3=\"false\"} /\\[/{if ($0 != \"[analytics]\") in_analytics=0} {print}' supabase/config.toml > supabase/tmp && mv supabase/tmp supabase/config.toml",
 		"supabase:start": "supabase start",

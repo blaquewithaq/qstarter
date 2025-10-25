@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"biomejs.biome",
+		"bradlc.vscode-tailwindcss",
+		"mhutchie.git-graph",
+		"mikestead.dotenv",
+		"nuxtr.nuxtr-vscode",
+		"oven.bun-vscode",
+		"streetsidesoftware.code-spell-checker",
+		"Vue.volar"
+	]
+}

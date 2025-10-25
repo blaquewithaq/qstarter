@@ -18,6 +18,7 @@
         "templates/*"
     ],
     "scripts": {
+        "clean": "find . \\( -type d \\( -name dist -o -name node_modules -o -name .nuxt -o -name .output \\) -exec rm -rf {} + -o -type f -name bun.lock -delete \\)",
         "check": "bun --filter '*' check",
         "build": "bun --filter '*' build"
     }
