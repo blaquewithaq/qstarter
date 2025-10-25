@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"biomejs.biome",
+		"mhutchie.git-graph",
+		"mikestead.dotenv",
+		"oven.bun-vscode",
+		"streetsidesoftware.code-spell-checker",
+		"Supabase.vscode-supabase-extension"
+	]
+}
