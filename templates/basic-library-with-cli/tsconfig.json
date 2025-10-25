@@ -20,11 +20,7 @@
 
 		"noEmit": true,
 		"verbatimModuleSyntax": true,
-		"skipLibCheck": true,
-
-		"paths": {
-			"@lib": ["./src/index.ts"]
-		}
+		"skipLibCheck": true
 	},
 
 	"include": ["src/**/*", "src-cli/**/*"],
