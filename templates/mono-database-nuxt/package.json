@@ -1,8 +1,8 @@
 {
-	"name": "mono",
+	"name": "mono-database-nuxt",
 	"type": "module",
 	"version": "0.0.1",
-	"description": "A mono starter template",
+	"description": "A mono starter with database and nuxt template",
 	"author": "Blaque Allen <blaquewithaq@gmail.com>",
 	"license": "MIT",
 	"homepage": "https://github.com/blaquewithaq/qstarter#readme",

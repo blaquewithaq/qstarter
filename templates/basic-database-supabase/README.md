@@ -1,1 +1,1 @@
-# QStarter - Basic - Library
+# QStarter - Basic - Database - Supabase

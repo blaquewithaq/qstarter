@@ -29,8 +29,8 @@
 	],
 	"scripts": {
 		"check": "biome check --write",
-		"build": "bunup",
-		"dev": "bunup --watch"
+		"build": "bunup --filter example",
+		"dev": "bunup --filter example --watch"
 	},
 	"dependencies": {},
 	"devDependencies": {}

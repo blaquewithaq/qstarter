@@ -1,0 +1,1 @@
+# QStarter - Mono - Nuxt
